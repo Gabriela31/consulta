@@ -20,3 +20,145 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* FUENTES */
+@font-face{
+	font-family: 'UPC_SGothic';
+	src: url('./assests/fonts/upc_sgothic-bdcap-webfont.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'zizou-slab-light';
+	src: url('./assests/fonts/zizou-slab-light.ttf') format('truetype');
+}
+
+.background_home{
+  background-image: url('./assests/img/bg_01.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	min-height: 800px;
+	padding: 84px;
+	padding-top: 240px;
+
+}
+
+.title_1{
+	margin-bottom: 10px;
+	font-size: 48px;
+	font-family: 'UPC_SGothic';
+	color: #FFFFFFFF;
+
+}
+
+.title_2{
+	margin-bottom: 10px;
+  	font-size: 20px;
+	font-family: 'zizou-slab-light';
+	color: #FFFFFFFF;
+}
+
+.search_bar{
+	border: none;
+	border-radius: 0px;
+	width: 100% !important;
+	padding-right: 0px !important;
+}
+
+.p{
+	font-family: 'zizou-slab-light';
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.p_2{
+	font-family: 'zizou-slab-light';
+	color: #000000;
+	font-size: 18px;
+}
+
+/* BOTON */
+.main_button{
+	margin: 5px;
+	height: 40px;
+	border: none;
+	font-family: 'UPC_SGothic';
+	font-size: 16px;
+	text-align: center;
+}
+
+.negro{
+	background: black;
+	color: white;
+}
+
+.blanco{
+	background-color: white;
+	/*color: black;*/
+}
+
+@media (min-width: 768px){
+	.main_button{
+		width: 170px;
+		font-size: 18px;
+	 }
+}
+
+/* TITTLE HEADER UPC BLOCKCERTS*/
+.home{
+	font-family: 'UPC_SGothic';
+	font-size: 25px;
+}
+
+#home_black{
+	padding-left: 15px;
+	padding-bottom: 0px;
+	color: black;
+}
+
+#home_white{
+	color:white
+}
+
+.logo{
+	width: 40px;
+}
+
+.header_login{
+	font-family: 'UPC_SGothic';
+	font-size: 25px;
+	color: white;
+}
+
+.title_login{
+	font-family: 'UPC_SGothic';
+	font-size: 50px;
+	color: white;
+}
+
+.sesion_title{
+	padding-top: 90px;
+	text-align: center;
+	font-family: 'zizou-slab-light';
+	font-size: 25px;
+}
+
+.p-0{
+	padding: 0;
+}
+
+
+.input{
+	margin-bottom: 5px;
+	height: 35px;
+	width: 100%;
+	background-color: #F8F8F8;
+	border: none;
+
+}
+
+::placeholder{
+	padding: 10px;
+	font-family: 'zizou-slab-light';
+	font-size: 15px;
+}
