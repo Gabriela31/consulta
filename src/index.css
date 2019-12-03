@@ -83,6 +83,17 @@ code {
   }
 }
 
+.background_head1 {
+  background-image: url('./assests/img/bg_03.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 192px;
+}
+
+.background_gray {
+  background-color: #F8F8F8;
+}
+
 .title_1 {
   margin-bottom: 10px;
   font-size: 48px;
@@ -148,6 +159,11 @@ code {
   padding: 0 5px;
 }
 
+.main_button:hover {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .main_button {
     width: 150px;
@@ -155,11 +171,6 @@ code {
     background-color: white;
     color: black;
   }
-}
-
-.block-center {
-  display: block;
-  margin: 0 auto;
 }
 
 .negro {
@@ -170,6 +181,11 @@ code {
 .blanco {
   background-color: white;
   /*color: black;*/
+}
+
+.block-center {
+  display: block;
+  margin: 0 auto;
 }
 
 /* TITTLE HEADER UPC BLOCKCERTS*/
