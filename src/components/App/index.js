@@ -6,6 +6,7 @@ import {
 //import Navigation from '../Navigation';
 import LandingPage from '../Landing';
 import SignInPage from '../SignIn';
+import SignInEmisorPage from '../SignInEmisor';
 import EmisionPage from '../constancia-emision';
 import RegistroPage from '../constancia-registro';
 
@@ -20,6 +21,7 @@ const App = () => (
       <Route path={ROUTES.SIGN_IN} component={SignInPage} />
       <Route path={ROUTES.CONSTANCIA_EMISION} component={EmisionPage} />
       <Route path={ROUTES.CONSTANCIA_REGISTRO} component={RegistroPage} />
+      <Route path={ROUTES.EMISOR} component={SignInEmisorPage} />
     </div>
   </Router>
 );

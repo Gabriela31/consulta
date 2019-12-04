@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import * as ROUTES from '../../constants/routes';
 
 const LandingPage = () => (
-  <div>
+  <div className="App">
 
     <header>
       <div className="navbar fixed-top">
