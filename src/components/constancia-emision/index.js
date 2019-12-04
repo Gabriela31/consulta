@@ -16,7 +16,13 @@ const EmisionPage = () => (
             </a>
           </div>
           <div className="col-6 text-right pt-3">
-            <span className="zizou-light">Hola Lourdes</span>
+            <a href="./">
+              <span className="mr-2"><img src="./user.png" /></span>
+              <span className="zizou-light">Hola Lourdes</span>
+            </a>
+            <a href="./">
+              <span className="ml-2"><img src="./signout.png" /></span>
+            </a>
           </div>
         </div>
         <br /><br /><br />
@@ -127,7 +133,7 @@ const EmisionPage = () => (
             <ul className="pagination justify-content-end">
               <li className="p-2"><span className="zizou-light">1/10</span></li>
               <li className="page-item">
-                <a className="page-link" href="#" tabindex="-1" aria-disabled="true">&lt;</a>
+                <a className="page-link" href="#">&lt;</a>
               </li>
               <li className="page-item">
                 <a className="page-link rounded-0" href="#">&gt;</a>

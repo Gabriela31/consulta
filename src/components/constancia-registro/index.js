@@ -16,7 +16,13 @@ const RegistroPage = () => (
             </a>
           </div>
           <div className="col-6 text-right pt-3">
-            <span className="zizou-light">Hola Lourdes</span>
+            <a href="./">
+              <span className="mr-2"><img src="./user.png" /></span>
+              <span className="zizou-light">Hola Lourdes</span>
+            </a>
+            <a href="./">
+              <span className="ml-2"><img src="./signout.png" /></span>
+            </a>
           </div>
         </div>
         <br /><br /><br />
@@ -54,7 +60,10 @@ const RegistroPage = () => (
 
       <div className="row border pt-3 pb-3 blanco">
         <div className='col-12 col-sm-12 text-right'>
-          <button className="main_button negro">Subir CSV</button>
+          <button className="main_button negro">
+            <span className="mr-2"><img src="./upload.png" /></span>
+            Subir CSV
+          </button>
         </div>
       </div>
       <div className="row border blanco">
